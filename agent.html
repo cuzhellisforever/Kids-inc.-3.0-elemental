@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Field agents</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="CoaMaker_hq.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nehuchua&display=swap">
+</head>
+<nav class="sidenav">
+    <a href="info.html" class="lol">intel</a>
+    <a href="agent.html" class="gop">agents</a>
+    <a href="funds.html" class="nyuh">fundraisers</a>
+</nav>
+<body>
+    <div class="middle">
+        <img src="CoaMaker_hq.png" alt="CoaMaker Logo" class="logo">
+        <h1 class="bruh">Agents</h1>
+        <p>this page lists the agents of team fire and their achievements</p>
+        <div class="captcha-box">
+            <input type="text" placeholder="Enter the secret code" id="passwordInput" class="captcha-box-input">
+            <button id="submitButton" class="Registration">Submit</button>
+        </div>
+        <div id="offerButtons">
+            <div class="no">
+                <table>
+                    <th>
+                        <td>Name</td>
+                        <td>age</td>
+                        <td>Gender</td>
+                        <td>location</td>
+                        <td>station</td>
+                    </th>
+                    <tr>
+                        <td>1</td>
+                        <td>mark</td>
+                        <td>9</td>
+                        <td>male</td>
+                        <td>Antarctica</td>
+                        <td>intel task force (ITF)</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Elise</td>
+                        <td>12</td>
+                        <td>female</td>
+                        <td>Antarctica</td>
+                        <td>antarctic attack force (AAF)</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Seoung</td>
+                        <td>10</td>
+                        <td>male</td>
+                        <td>russia</td>
+                        <td>Kids inc. fire political lobbying force (KIFPLF)</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Aamir</td>
+                        <td>11</td>
+                        <td>male</td>
+                        <td>India</td>
+                        <td>fire political lobbying force (FPLF)</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Maria</td>
+                        <td>10</td>
+                        <td>female</td>
+                        <td>Antarctica</td>
+                        <td>logistics and strategist force (LSF)</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>John</td>
+                        <td>13</td>
+                        <td>male</td>
+                        <td>Antarctica</td>
+                        <td>snow and ice research force (SIRF)</td>
+                    </tr>
+                </table>
+                <p>these are where our agents are stationed</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('submitButton').addEventListener('click', function () {
+        const password = document.getElementById('passwordInput').value;
+        const correctPassword = "@rson123"; // Replace with your desired password
+
+        if (password === correctPassword) {
+            document.getElementById('offerButtons').style.display = 'block';
+        } else {
+            alert('Incorrect password. Please try again.');
+            document.getElementById('offerButtons').style.display = 'none';
+        }
+    });
+    </script>
+</body>
+</html>

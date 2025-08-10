@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>information</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="CoaMaker_hq.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nehuchua&display=swap">
+</head>
+<nav class="sidenav">
+    <a href="info.html" class="lol">intel</a>
+    <a href="agent.html" class="gop">agents</a>
+    <a href="funds.html" class="nyuh">fundraisers</a>
+</nav>
+<body>
+    <div class="middle">
+        <img src="CoaMaker_hq.png" alt="CoaMaker Logo" class="logo">
+        <h1 class="bruh">Intel</h1>
+        <p>this page lists team ice and their achievments</p>
+         <div class="captcha-box">
+            <input type="text" placeholder="Enter the secret code" id="passwordInput" class="captcha-box-input">
+            <button id="submitButton" class="Registration">Submit</button>
+        </div>
+        <div id="offerButtons">
+            <div class="no">
+                <h3>INTEL</h3>
+                <p>the intel that has been gathered so far will make tremendous progress in the fight against team ice</p>
+                <p>we have gathered intel on the following:</p>
+                <ul>
+                    <li>Team Ice's base location</li>
+                    <li>Team Ice's members</li>
+                    <li>Team Ice's plans</li>
+                    <li>Team Ice's weaknesses</li>
+                </ul>
+                <p>we are still gathering more intel, and we will update this page as we go</p>
+                <div class="no">
+                    <h3>LOCATION</h3>
+                    <p>team ice's base is in the timezone of the Moscow parliament house, suggesting a connection to the russian government</p>
+                    <p>later intel was recovered that Russia was never covered with snow before the roman era. and snow weapons being used against Ukraine, further proof for such theories</p>
+                    <p>we are still gathering more intel, and we will update this page as we go</p>
+
+                    <hr>
+
+                    <h3>MEMBERS</h3>
+                    <p>the members of team ice are:</p>
+                    <ul>
+                        <li>Ice King - Leader</li>
+                        <li>Frostbite - Second in command</li>
+                        <li>Snow Queen - Strategist</li>
+                        <li>Blizzard - Enforcer</li>
+                        <li>Chill - Saboteur</li>
+                        <li>Glacier - Scientist</li>
+                    </ul>
+                    <p>thier powers are based on frozen water infused in their DNA</p>
+                    <p>they have armies, while we are just a rebellion, but we use hellion script</p>
+                    <p>we are still gathering more intel and we will update this page as we go</p>
+
+                    <hr>
+
+                    <h3>PLANS</h3>
+                    <p>team ice's plans are to freeze the world, and they have been working on this for years</p>
+                    <p>they have been using their powers to create snowstorms and blizzards, and they have been using their armies to attack anyone who opposes them</p>
+                    <p>we are still gathering more intel, and we will update this page as we go</p>
+
+                    <hr>
+
+                    <h3>WEAKNESSES</h3>
+                    <p>team ice's weaknesses are:</p>
+                    <ul>
+                        <li>Fire - their powers are based on frozen water, and fire can melt ice</li>
+                        <li>Heat - they are vulnerable to heat, and it can weaken their powers</li>
+                        <li>Water - they are vulnerable to water, and it can weaken their powers</li>
+                        <li>Light - they are vulnerable to light, and it can weaken their powers</li>
+                    </ul>
+                    <p>we are still gathering more intel, and we will update this page as we go</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('submitButton').addEventListener('click', function () {
+        const password = document.getElementById('passwordInput').value;
+        const correctPassword = "@rson123"; // Replace with your desired password
+
+        if (password === correctPassword) {
+            document.getElementById('offerButtons').style.display = 'block';
+        } else {
+            alert('Incorrect password. Please try again.');
+            document.getElementById('offerButtons').style.display = 'none';
+        }
+    });
+    </script>
+</body>
+</html>

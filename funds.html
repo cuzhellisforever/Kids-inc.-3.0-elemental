@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundraising</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="CoaMaker_hq.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nehuchua&display=swap">
+</head>
+<nav class="sidenav">
+    <a href="info.html" class="lol">intel</a>
+    <a href="agent.html" class="gop">agents</a>
+    <a href="funds.html" class="nyuh">fundraisers</a>
+</nav>
+<body>
+    <div class="middle">
+        <img src="CoaMaker_hq.png" alt="CoaMaker Logo" class="logo">
+        <h1 class="bruh">Fundraisers</h1>
+        <p>by fundraising, we dont only mean financial support, we talk about all kinds</p>
+        <p>even some pieces of clothing would be beneficial to the cause!, for contact please view:</p>
+         <div class="captcha-box">
+            <input type="text" placeholder="Enter the secret code" id="passwordInput" class="captcha-box-input">
+            <button id="submitButton" class="Registration">Submit</button>
+        </div>
+        <div id="offerbuttons">
+            <div class="no">
+                <h3>CONTACT</h3>
+                <ul>
+                    <li>main email: Aaditya.ad.sing@Gmail.com</li>
+                    <li>email: learner2873@theheritageschool.in</li>
+                    <li>phone: +91 98187 84732</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('submitButton').addEventListener('click', function () {
+        const password = document.getElementById('passwordInput').value;
+        const correctPassword = "@rson123"; // Replace with your desired password
+
+        if (password === correctPassword) {
+            document.getElementById('offerButtons').style.display = 'block';
+        } else {
+            alert('Incorrect password. Please try again.');
+            document.getElementById('offerButtons').style.display = 'none';
+        }
+    });
+    </script>
+</body>
+</html>
