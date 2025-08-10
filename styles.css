@@ -1,0 +1,334 @@
+body {
+    background-image: url(https://ts1.mm.bing.net/th?id=OIP.N0YZ8c3H3m3stPrfOuSjQQHaNK&pid=15.1);
+    background-repeat: repeat;
+    color: #000;
+    font-size: 20px;
+    font-family: Nehuchua, cursive;
+    text-align: center;
+}
+
+.middle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+h1 {
+    font-size: 40px;
+    color: maroon;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.huh {
+    font-size: 40px;
+    color: darkcyan;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+section {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.sidenav a {
+    position: absolute;
+    left: -150px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.sidenav a:hover {
+    left: 0;
+}
+
+.lol {
+    top: 20px;
+    background-color: rgb(255, 0, 0);
+}
+.gop {
+    top: 80px;
+    background-color: rgb(186, 0, 0);
+}
+.nyuh {
+    top: 140px;
+    background-color: rgb(139, 0, 0);
+}
+.eeh {}
+.theme-toggle {
+    top: 200px;
+    background-color: darkorange;
+}
+.Home {
+    top: 20px;
+    background-color: darkcyan;
+}
+.paintings {
+    top: 80px;
+    background-color: seagreen;
+}
+.slideshowcontainer {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.thinkingaloud {
+    top: 140px;
+    background-color: darkorange;
+}
+.about {
+    top: 20px;
+    background-color: darkslateblue;
+}
+.files {
+    top: 80px;
+    background-color: darkcyan;
+}
+    .contact {
+    top: 140px;
+    background-color: darkgoldenrod;
+}
+.ANmain {
+    top: 280px;
+    background-color: darkcyan;
+}
+.Registration {
+    font-size: 20px;
+    background-color: gold;
+    border-radius: 3px;
+    padding: 20px;
+    font-family: nehucha, cursive;
+}
+.Registration:hover {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+/* Fancy button styles */
+button.Registration {
+    background: linear-gradient(90deg, #3a8dde 0%, #1e3c72 100%);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 32px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 16px rgba(58, 141, 222, 0.15);
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    outline: none;
+}
+
+button.Registration:hover, button.Registration:focus {
+    background: linear-gradient(90deg, #1e3c72 0%, #3a8dde 100%);
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 8px 24px rgba(30, 60, 114, 0.18);
+}
+
+/* Fancy input box styles */
+.captcha-box input[type="text"] {
+    padding: 10px 16px;
+    border: 2px solid #3a8dde;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(58, 141, 222, 0.15);
+}
+
+.captcha-box input[type="text"]:focus {
+    border-color: #1e3c72;
+    box-shadow: 0 4px 16px rgba(30, 60, 114, 0.18);
+}
+
+/* Fancy table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    font-size: 1.05rem;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(58, 141, 222, 0.08);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px 18px;
+    text-align: left;
+}
+
+th {
+    background: linear-gradient(90deg, #3a8dde 0%, #1e3c72 100%);
+    font-weight: bold;
+    border-bottom: 2px solid #1e3c72;
+}
+
+tr:nth-child(even) td {
+    background: #e3f0ff;
+}
+
+tr:nth-child(odd) td {
+    background: #f6fbff;
+}
+
+tr:hover td {
+    background: #cbe2ff;
+    transition: background 0.2s;
+}
+ /* Hide buttons initially */
+        #offerButtons {
+            display: none;
+        }
+        .captcha-box {
+            margin: 20px 0;
+        }
+        .Home {
+    top: 20px;
+    background-color: darkcyan;
+}
+ .password-container {
+      position: relative;
+    }
+
+    .toggle-password {
+      cursor: pointer;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      user-select: none;
+    }
+.no {
+    border: 2px solid #ccc; /* Light gray border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Add some padding inside the div */
+    background-color: #fff; /* Optional: white background */
+}
+
+.no img {
+    border-radius: 15px; /* Rounded corners for the image */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Optional: shadow for the image */
+    max-width: 100%; /* Ensure the image doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.no iframe {
+    border-radius: 15px; /* Rounded corners for the image */
+}
+.wow {
+    color: #ff6347; /* Tomato color */
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #ff6347;
+    transition: all 0.3s ease-in-out;
+}
+
+.wow:hover {
+    color: #4caf50; /* Green color on hover */
+    border-bottom: 2px solid #4caf50;
+    text-shadow: 0 0 10px rgba(76, 175, 80, 0.8);
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+hr {
+    border: 1px solid #000;
+    width: 75%;
+    margin: 20px auto;
+}
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 210px;
+    width: 70px; /* Adjust size as needed */
+    height: auto;
+    z-index: 0; /* Ensures it appears above other elements */
+}
+.captcha-submit {
+    padding: 10px 20px;
+    background-color: #3a8dde;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.captcha-submit:hover {
+    background-color: #1e3c72;
+}
+
+/* Light Theme (Default) */
+body.light-theme {
+    background-image: url(https://thfvnext.bing.com/th/id/OIP.SeXUxtWrXuk1FreXDVdgYAAAAA?w=140&h=200&c=7&r=0&o=7&cb=thfvnext&dpr=1.1&pid=1.7&rm=3);
+    color: #000000;
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+.middle.dark-theme {
+    background-color: #1e1e1e; /* Dark background for the middle section */
+    color: #ffffff; /* White text */
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+.sidenav a.dark-theme {
+    background-color: #333333; /* Dark background for links */
+    color: #ffffff; /* White text for links */
+}
+
+.no.dark-theme {
+    background-color: #1e1e1e; /* Dark background for the "no" section */
+    color: #ffffff; /* White text */
+}
+
+h1.dark-theme, h2.dark-theme, h3.dark-theme {
+    color: #ffffff; /* Ensure headers are white */
+}
+
+p.dark-theme, li.dark-theme {
+    color: #ffffff; /* Ensure paragraphs and list items are white */
+}
+
+button.theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #3a8dde;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.theme-toggle:hover {
+    background-color: #1e3c72;
+}
+
+.bruh {
+    text-decoration: red;
+    text-align: right;
+}
