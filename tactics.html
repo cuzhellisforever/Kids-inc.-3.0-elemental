@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kids Inc. Water Tactics vs Team Fire</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nehucha&display=swap">
+    <link rel="icon" href="CoaMaker_hq.png" type="image/png">
+</head>
+<nav class="sidenav">
+    <a href="info.html" class="hi">intel</a>
+    <a href="agents.html" class="what">Agents tools</a>
+    <a href="tactics.html" class="nyuh">tactics</a>
+    <a href="index.html" class="gop">home</a>
+</nav>
+<body>
+    <div class="middle">
+        <img src="CoaMaker_hq.png" alt="Kids Inc. logo" class="logo">
+        <h1>Kids Inc. Water Tactics vs Team Fire</h1>
+        <form id="captcha-box" class="captcha-box">
+            <input type="text" id="tacticInput" placeholder="Enter a new tactic..." required>
+            <button type="submit" class="Registration">Add</button>
+        </form>
+        <ul id="tacticsList"></ul>
+    </div>
+    <script>
+        const form = document.getElementById('captcha-box');
+        const input = document.getElementById('tacticInput');
+        const list = document.getElementById('tacticsList');
+
+        // Load tactics from localStorage
+        let tactics = JSON.parse(localStorage.getItem('waterTactics')) || [];
+
+        function renderTactics() {
+            list.innerHTML = '';
+            tactics.forEach((tactic, idx) => {
+                const li = document.createElement('li');
+                li.textContent = tactic;
+                list.appendChild(li);
+            });
+        }
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const tactic = input.value.trim();
+            if (tactic) {
+                tactics.push(tactic);
+                localStorage.setItem('waterTactics', JSON.stringify(tactics));
+                renderTactics();
+                input.value = '';
+            }
+
+            if (tacticInput = "fl0w123") {
+                location.href = "secret.html"; // Redirect to secret page if correct password is entered
+            }
+        });
+
+        renderTactics();
+    </script>
+</body>
+</html>

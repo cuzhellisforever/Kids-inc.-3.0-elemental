@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nehucha&display=swap">
+    <link rel="icon" href="CoaMaker_hq.png" type="image/png">
+</head>
+<nav class="sidenav">
+    <a href="info.html" class="hi">intel</a>
+    <a href="agents.html" class="what">Agents tools</a>
+    <a href="tactics.html" class="nyuh">tactics</a>
+    <a href="index.html" class="gop">home</a>
+</nav>
+<body>
+    <div class="middle">
+        <h1 class="bruh">Intel</h1>
+        <p>Welcome to Kids inc. intel interface! it contains all the information we have on team fire</p>
+        <div class="captcha-box">
+            <input type="text" id="dot" placeholder="password">
+            <button id="submit" class="Registration">Submit</button>
+        </div>
+        <div id="offerButtons">
+            <div class="no">
+                <h2>Team Fire</h2>
+                <p>Team Fire is a group of highly skilled individuals specializing in various fields. They are known for their expertise in technology, strategy, and execution.</p>
+                <p>team fire is a vicious lunar gang that has been terrorizing the city for years. They are known for their brutal tactics and ruthless leadership. The gang is led by a mysterious figure known only as "The Flame", who is rumored to have connections to the highest levels of the criminal underworld.</p>
+                <p>Team Fire operates in the shadows, using advanced technology and strategic planning to outmaneuver their opponents. They are involved in various illegal activities, including cybercrime, smuggling, and extortion. and they are too well known for arson</p>
+                <p>Despite their criminal activities, Team Fire has a code of honor and loyalty among its members. They are known to protect their own and will go to great lengths to ensure the safety of their team.</p>
+                <p>Team Fire's operations are highly secretive, and they often use encrypted communication channels to coordinate their activities. They are also known for their ability to adapt quickly to changing circumstances, making them a formidable opponent in the criminal underworld.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('submit').addEventListener('click', function() {
+            const password = document.getElementById('dot').value;
+            const correctPassword = 'fl0w123';
+            if (password === correctPassword) {
+                document.getElementById("offerButtons").style.display = "block";
+            } else {
+                alert('Incorrect password. Please try again.');
+                document.getElementById("offerButtons").style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>
